@@ -5,6 +5,7 @@ These code examples should be at least compiled, but better tested.
 So this example shows how to include the body of test cases in Javadoc.
 
 ### Result
+![result](https://raw.github.com/schleichardt/javadoc-taglet-sbt-example/master/doc/screenshot-javadoc-result.png)
 
 ### The Javadoc of the Implementation Class
 ```java

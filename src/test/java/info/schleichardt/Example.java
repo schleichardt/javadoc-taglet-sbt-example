@@ -16,7 +16,12 @@ public class Example {
 
     @Test
     public void testBla() throws Exception {
-        System.out.println("hello");
-        System.out.println("code");
+        final Runnable x = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("hello");
+                System.out.println(1);
+            }
+        };
     }
 }

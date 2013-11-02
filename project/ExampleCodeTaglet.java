@@ -54,7 +54,7 @@ public class ExampleCodeTaglet implements Taglet {
             res += s + "\n";
         }
 
-        return "<pre>" + res + "</pre>";
+        return "<pre><code class='java'>" + res + "</code></pre>";
     }
 
     private  List<String> fileToArray(File testFile) throws FileNotFoundException {

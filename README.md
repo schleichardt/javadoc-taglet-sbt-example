@@ -7,6 +7,8 @@ So this example shows how to include the body of test cases in Javadoc.
 ### Result
 ![result](https://raw.github.com/schleichardt/javadoc-taglet-sbt-example/master/doc/screenshot-javadoc-result.png)
 
+<hr />
+
 ### The Javadoc of the Implementation Class
 ```java
 /**

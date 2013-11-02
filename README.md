@@ -53,6 +53,13 @@ public class Example {
 sbt test doc
 ```
 
+### How it works
+
+1. [build.sbt](build.sbt) sets Javadoc options to include a [Taglet](http://docs.oracle.com/javase/6/docs/technotes/guides/javadoc/taglet/overview.html)
+2. [build.sbt](build.sbt) adds JavaScripts and CSS for [highlightjs](http://highlightjs.org/) that is used in the browser to code highlight the Java code
+3. [project/build.sbt](project/build.sbt) adds the tools.jar as local dependency to use the ```com.sun.tools.doclets``` package
+4. [project/ExampleCodeTaglet.java](project/ExampleCodeTaglet.java) implements the ```Taglet``` interface to include the test methods
+
 ## Notice
 
 THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS OR

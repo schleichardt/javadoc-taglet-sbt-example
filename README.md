@@ -45,7 +45,7 @@ public class Example {
     }
 }
 ```
-
+### Run
 
 ```bash
 sbt test doc

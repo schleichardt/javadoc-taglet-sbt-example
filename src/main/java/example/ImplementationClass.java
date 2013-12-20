@@ -1,7 +1,7 @@
 package example;
 
 /**
- *
+ * A sample class.
  *
  * {@include.example info.schleichardt.Example#testUppercase()}
  *
